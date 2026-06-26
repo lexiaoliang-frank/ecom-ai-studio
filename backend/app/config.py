@@ -36,9 +36,9 @@ class Settings(BaseSettings):
     minio_secure: bool = False
 
     # === LLM Aggregation ===
-    llm_api_base: str = "https://api.tokenpony.com/v1"
+    llm_api_base: str = "https://api.tokenpony.cn/v1"
     llm_api_key: str = "your-llm-api-key-here"
-    llm_model: str = "claude-sonnet-4-6"
+    llm_model: str = "deepseek-v4-pro"
     llm_model_cheap: str = "gpt-4o-mini"
 
     # === Image Generation ===
